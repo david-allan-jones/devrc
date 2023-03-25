@@ -10,5 +10,3 @@ noremap <C-f> <C-f>zz
 noremap <C-b> <C-b>zz
 noremap <C-d> <C-d>zz
 noremap <C-u> <C-u>zz
-noremap j jzz
-noremap k kzz
