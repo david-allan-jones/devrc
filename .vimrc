@@ -6,7 +6,9 @@ set belloff=all
 
 set history=1000
 
-nnoremap("<C-f>", "<C-f>zz")
-nnoremap("<C-b>", "<C-b>zz")
-nnoremap("<C-u>", "<C-u>zz")
-nnoremap("<C-d>", "<C-d>zz")
+noremap <C-f> <C-f>zz
+noremap <C-b> <C-b>zz
+noremap <C-d> <C-d>zz
+noremap <C-u> <C-u>zz
+noremap j jzz
+noremap k kzz
