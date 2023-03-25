@@ -4,16 +4,19 @@ set linebreak
 set tabstop=4
 set shiftwidth=4
 
+set ai
+set si
+
 set belloff=all
 set noerrorbells
 set novisualbell
 
 set history=1000
 
-noremap <C-f> <C-f>zz
-noremap <C-b> <C-b>zz
-noremap <C-d> <C-d>zz
-noremap <C-u> <C-u>zz
-noremap <space> /
+nnoremap <C-f> <C-f>zz
+nnoremap <C-b> <C-b>zz
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
+nnoremap <space> /
 
 syntax enable
