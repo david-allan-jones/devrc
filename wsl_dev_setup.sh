@@ -11,6 +11,7 @@ broadcast "Copying rc files..."
 cp .bash_profile ~/.bash_profile
 cp .bashrc       ~/.bashrc
 cp .vimrc        ~/.vimrc
+cp inputrc       /etc/inputrc
 broadcast "Finished copying rc files."
 
 #Update system
