@@ -1,5 +1,5 @@
-#Needed to prevent the need for inputting ssh password every time
+source .bashrc
+
+#Needed so you don't need to input ssh password each time
 eval $(ssh-agent)
 ssh-add
-
-source .bashrc
