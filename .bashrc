@@ -121,16 +121,24 @@ alias gf='git fetch'
 alias root='cd ~/../..'
 alias home='cd ~'
 
-function repos() {
+repos() {
 	cd ~/repos/$1
 }
 
-function gp() {
+gp() {
 	git pull origin $1 
 }
 
-function commit() {
+commit() {
 	git commit -m $1	
+}
+
+v() {
+	if [ -z "$1" ]; then
+		vim .
+	else
+		vim "$1"
+	fi
 }
 
 export NVM_DIR="$HOME/.nvm"
