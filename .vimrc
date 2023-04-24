@@ -1,3 +1,5 @@
+set nocompatible
+
 set nu rnu
 
 set linebreak
