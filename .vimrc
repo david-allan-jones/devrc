@@ -1,4 +1,5 @@
 set nocompatible
+set hidden
 
 set nu rnu
 
