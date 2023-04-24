@@ -23,3 +23,10 @@ nnoremap <C-u> <C-u>zz
 nnoremap <space> /
 
 syntax enable
+
+"====== BEGIN PATH SECTION ======" 
+
+"Next.js"
+set path+=$PWD/pages/**
+set path+=$PWD/components/**
+
