@@ -16,13 +16,20 @@ set novisualbell
 
 set history=1000
 
+syntax enable
+
+"====== BEGIN REMAP SECTION ======" 
+
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 nnoremap <C-f> <C-f>zz
 nnoremap <C-b> <C-b>zz
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap <space> /
-
-syntax enable
 
 "====== BEGIN PATH SECTION ======" 
 
