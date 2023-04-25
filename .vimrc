@@ -1,24 +1,25 @@
 set nocompatible
 set hidden
-
+set belloff=all
+set noerrorbells
+set novisualbell
 set nu rnu
+set history=1000
 
 set linebreak
 set tabstop=4
 set shiftwidth=4
 
+set hlsearch
+
 set ai
 set si
-
-set belloff=all
-set noerrorbells
-set novisualbell
-
-set history=1000
 
 syntax enable
 
 "====== BEGIN REMAP SECTION ======" 
+
+nnoremap <esc><esc> :noh<return><esc>
 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
