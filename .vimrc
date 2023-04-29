@@ -19,6 +19,8 @@ syntax enable
 
 "====== BEGIN REMAP SECTION ======" 
 
+inoremap jj <esc>
+
 nnoremap <esc><esc> :noh<return><esc>
 
 noremap <Up> <NOP>
