@@ -4,6 +4,7 @@ set belloff=all
 set noerrorbells
 set novisualbell
 set nu rnu
+set nrformats+=alpha
 set history=1000
 
 set linebreak
