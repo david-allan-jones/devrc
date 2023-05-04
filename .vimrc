@@ -5,6 +5,7 @@ set noerrorbells
 set novisualbell
 set nu rnu
 set nrformats+=alpha
+set ignorecase smartcase
 set history=1000
 
 set linebreak
